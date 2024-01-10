@@ -90,6 +90,9 @@ export class AppShower implements AfterViewInit {
   }
 }
 
+/**
+ * @example <content [templateRef]="aContentChildTemplateRef">fallback content</content>
+ */
 @Component({
   selector: 'content',
   template: `
